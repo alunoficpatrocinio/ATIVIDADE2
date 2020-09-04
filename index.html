@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+	<script type="text/javascript" src="javascript/scripts.js"></script>
+
+	<title>Multicalculadora</title>
+</head>
+<body>
+<div id="formu">
+	<h2 id="titulo">
+		MultiCalculadora
+	</h2>
+	<form method="" name="form1" target="">
+		<input id="imc" type="radio" name="selecao" onclick="verifica()"> <label for="imc">IMC</label>
+		  &nbsp;&nbsp;&nbsp;&nbsp;
+
+		<input id="retangulo" type="radio" name="selecao" onclick="verifica()" > <label for="retangulo">Retângulo</label>
+		  &nbsp;&nbsp;&nbsp;&nbsp;
+
+		<input id="circulo" type="radio" name="selecao" onclick="verifica()" > <label for="circulo">Circulo</label>
+		<br/><br>
+
+
+		<label for="edit1" id="texto1" >Peso:</label> <input id="edit1" type="text" name="edit1" size="4"><br>
+		
+		<label for="edit2" id="texto2">Altura:</label> <input id="edit2" type="text" name="edit2" size="4"><br><br>
+		<button name="btn1" onclick="calcular();">Calcular</button>
+
+
+	</form>
+
+</div>
+</body>
+</html>
+
+
+

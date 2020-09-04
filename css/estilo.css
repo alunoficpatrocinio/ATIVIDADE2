@@ -1,0 +1,33 @@
+label {
+font-size: 14px;
+}
+text{
+float: 
+}
+#formu{
+border: 2px solid black ;
+margin:55px 10px 10px 10px;
+padding: 30px 10px 10px 20px;
+width: 900px;
+}
+
+#edit1{
+	height: 100;
+	width: 100;
+	left: 200;
+	top:100;
+	margin-left: 10px;
+}
+
+#edit2{
+	height: 100;
+	width: 100;
+	left: 200;
+	top:100;
+	margin-top: 10px;
+}
+#titulo{
+position: absolute;
+top: 10px;
+left: 20px;
+}
